@@ -12,6 +12,8 @@ app.post('/contactos', (req, res) => {
   res.status(200).send();
 })
 
-app.listen(3000, () => {
+app.set('port', process.env.PORT || 3030);
+
+app.listen(app.get('port'), () => {
   console.log('Servidor corriendo')
 });
