@@ -13,7 +13,7 @@ module.exports = (contacto) => {
 
   const mailOptions = {
         from: `"Mensaje De Prueba" <condolencias_e@funeralesraulflores.com>`, // De quien va enviado
-        to: 'condolencias_c@funeralesraulflores.com', // Para
+        to: 'condolencias_r@funeralesraulflores.com', // Para
         subject: 'Mensaje De La Pagina web FRF', // Asunto
         text: 'Pagina web', // Campo no obligatorio
         html: ` 
